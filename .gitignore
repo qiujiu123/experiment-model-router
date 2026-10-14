@@ -1,0 +1,11 @@
+# [Codex] 排除本地配置与运行产物
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+work/
+outputs/
+.DS_Store
+Thumbs.db
