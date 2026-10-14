@@ -1,0 +1,7 @@
+# [Codex] v1.1.1，2026-10-14
+interface:
+  display_name: "实验双模型调度"
+  short_description: "自动委派 Sol 编码运行实验，并由 Astra 分析结果与设计下一步"
+  default_prompt: "使用 $experiment-model-router 处理当前项目：由 GPT-6.1 Sol（MAX）编码和运行实验，完成后由 GPT-6 Astra（极高）分析结果并设计下一步，在已授权范围内继续迭代。"
+policy:
+  allow_implicit_invocation: true
